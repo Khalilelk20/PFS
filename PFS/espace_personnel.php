@@ -58,8 +58,8 @@ $conn->close();
             <ul>
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="transactions.php">Transactions</a></li>
-                <li><a href="#">Objectifs Financiers</a></li>
-                <li><a href="#">Alertes</a></li>
+                <li><a href="objectifs_financiers.php">Objectifs Financiers</a></li>
+                <li><a href="alertes.php">Alertes</a></li>
                 <li><a href="deconnexion.php">Déconnexion</a></li>
             </ul>
         </nav>
