@@ -8,7 +8,7 @@ if(!isset($_SESSION['user_id']))
 // Connexion à la base de données
 $servername = "db";
 $username = "root";
-$password = "";
+$password = "root";
 $database = "smartspenddb";
 
 // Créer la connexion
