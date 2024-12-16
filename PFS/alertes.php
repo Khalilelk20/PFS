@@ -5,7 +5,7 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 }
 
-$servername = "localhost";
+$servername = "db";
 $username = "root";
 $password = "";
 $database = "smartspenddb";
