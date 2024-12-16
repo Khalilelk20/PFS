@@ -7,7 +7,7 @@ if (!isset($_SESSION['user_id'])) {
 
 $servername = "db";
 $username = "root";
-$password = "";
+$password = "root";
 $database = "smartspenddb";
 $conn = new mysqli($servername, $username, $password, $database);
 
