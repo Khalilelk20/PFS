@@ -12,7 +12,7 @@ if(isset($valider)){
         $message.="<div class='erreur'>Mot de passes non identiques!</div>";
     if($message === ""){
 // Connexion à la base de données
-$servername = "127.0.0.1";
+$servername = "db";
 $username = "root";
 $password = "";
 $database = "smartspenddb";
