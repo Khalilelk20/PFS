@@ -2,7 +2,7 @@
 session_start();
 
 // Database connection setup
-$servername = "localhost";
+$servername = "db";
 $username = "root";
 $password = "";
 $database = "smartspenddb";
