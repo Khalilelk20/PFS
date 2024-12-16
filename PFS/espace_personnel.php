@@ -6,7 +6,7 @@ if(!isset($_SESSION['user_id']))
     exit();
 }
 // Connexion à la base de données
-$servername = "localhost";
+$servername = "db";
 $username = "root";
 $password = "";
 $database = "smartspenddb";
