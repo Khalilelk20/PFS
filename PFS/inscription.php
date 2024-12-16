@@ -14,7 +14,7 @@ if(isset($valider)){
 // Connexion à la base de données
 $servername = "db";
 $username = "root";
-$password = "";
+$password = "root";
 $database = "smartspenddb";
 
 $conn = new mysqli($servername, $username, $password, $database);
