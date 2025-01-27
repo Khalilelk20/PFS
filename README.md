@@ -1,4 +1,46 @@
-Copyright © 2024 SmartSpend
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+# 🌟 Projet de Microservices avec Docker Compose
+
+## 📝 Description
+
+Ce projet représente une étape clé dans la création d'une architecture de microservices, mettant en œuvre une infrastructure conteneurisée et interconnectée grâce à Docker Compose. L'objectif est d'améliorer l'interopérabilité entre les services et d'assurer une gestion efficace des données partagées.
+
+---
+
+## 🔧 Détails techniques
+
+### Principales réalisations :  
+✅ **Migration des microservices dans des conteneurs Docker** :  
+- Chaque microservice est conteneurisé avec une architecture claire et optimisée.  
+- Utilisation de **Docker Compose** pour simplifier le déploiement et l'orchestration des services.
+
+✅ **Volume partagé pour les sessions utilisateurs** :  
+- Mise en place d’un système de gestion centralisée des variables de session via un volume partagé Docker.  
+- Cette solution garantit une **cohérence optimale** entre les microservices, en particulier pour le suivi des connexions utilisateurs.
+
+---
+
+## 🚀 Fonctionnalités du site SmartSpend
+
+Le site web **SmartSpend**, déployé dans cette architecture, est une application de gestion financière offrant les fonctionnalités suivantes :  
+- **Inscription et connexion des utilisateurs** : Authentification sécurisée pour accéder aux fonctionnalités.  
+- **Gestion des transactions financières** :  
+  - **Ajout**, **modification**, et **suppression** des transactions.  
+- **Définition d’un objectif financier** : Les utilisateurs peuvent définir un montant limite à ne pas dépasser.  
+- **Alertes et visualisation des dépenses** :  
+  - Affichage de graphiques interactifs (courbes et graphiques) pour analyser les dépenses.  
+  - Notifications en cas de dépassement de l’objectif financier.  
+
+---
+
+## 🌐 Technologies utilisées
+
+### Langages :  
+- **Frontend** : HTML, CSS, JavaScript  
+- **Backend** : PHP  
+- **Base de données** : SQL  
+
+### Outils :  
+- **Docker** pour la conteneurisation des services.  
+- **Docker Compose** pour l’orchestration et l’interconnexion des microservices.  
+
+---
