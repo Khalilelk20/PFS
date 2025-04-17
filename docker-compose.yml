@@ -1,8 +1,12 @@
 version: "3"
 services:
   db:
-    image: mysql:latest
+    build:
+      context: ./PFS/db-service
+      dockerfile: Dockerfile
     container_name: db
+    ports:
+      - "3306:3306"
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
